@@ -24,12 +24,18 @@ In PowerShell, from the project directory:
 
 ```powershell
 python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade -r requirements-tools.txt
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\convert.ps1 --help
 ```
 
 FFmpeg is supplied through `imageio-ffmpeg`; no separate system installation
 is required. The launcher uses the Python executable inside `.venv`.
+
+The installer-tooling baseline in [requirements-tools.txt](requirements-tools.txt)
+requires Python 3.10 or newer. Upgrade the tooling before installing application
+dependencies, including when reusing an older virtual environment. These tools
+are not application runtime dependencies; review security updates regularly.
 
 ## Try it without Azure or charges
 
