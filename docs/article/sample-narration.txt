@@ -1,0 +1,7 @@
+A document can be read, but it can also be heard.
+
+Word Read Aloud lets you listen to the text on screen.
+An MP3 file is more convenient when you want to take a narration with you.
+
+This short example only checks text extraction and splitting.
+Dry-run mode does not contact Azure and does not produce audio.

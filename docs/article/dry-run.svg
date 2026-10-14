@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420" role="img" aria-labelledby="title desc">
+  <title id="title">Local dry run: command-line demonstration</title>
+  <desc id="desc">Illustrated terminal output, not a native screenshot. The input contains one chunk. The local extraction path is abbreviated for publication.</desc>
+  <rect width="1120" height="420" rx="14" fill="#0f172a"/>
+  <rect width="1120" height="52" rx="14" fill="#1e293b"/>
+  <g font-family="Consolas, monospace" font-size="18" fill="#e2e8f0">
+    <text x="24" y="33">Local dry run - illustrated terminal output, not a screenshot</text>
+    <text x="24" y="99" fill="#93c5fd">PS&gt; .\convert.ps1 .\docs\article\sample-narration.txt --dry-run</text>
+    <text x="24" y="150">Extracting: ...\docs\article\sample-narration.txt</text>
+    <text x="24" y="190">Voice: fr-FR-DeniseNeural; one chunk for this short sample.</text>
+    <text x="24" y="230" font-size="17">Document body and tables included; notes appended at the end. Images excluded.</text>
+    <text x="24" y="280" fill="#86efac">Dry run complete: no Azure calls, no charges.</text>
+    <text x="24" y="350" font-size="16" fill="#cbd5e1">No MP3 is generated in dry-run mode. The count line is summarized here.</text>
+    <text x="24" y="380" font-size="16" fill="#cbd5e1">The document-body message is generic: this demonstration uses a TXT input.</text>
+  </g>
+</svg>
