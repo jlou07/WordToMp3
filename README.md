@@ -7,8 +7,6 @@ creates a standalone audio file instead; it does not record Word's playback.
 Word's **Dictate** feature does the reverse: speech to text.
 
 Repository: [jlou07/WordToMp3](https://github.com/jlou07/WordToMp3).
-For the complete architecture, implementation details, limitations, illustrations,
-and a ready-to-use writing brief, see the [article dossier](ARTICLE-DOSSIER.md).
 
 ## Requirements
 
